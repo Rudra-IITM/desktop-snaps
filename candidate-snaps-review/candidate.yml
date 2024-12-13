@@ -28,7 +28,7 @@ gnome-3-38-2004-sdk: []
 gnome-42-2204:
 - 194
 gnome-42-2204-sdk:
-- 278
+- 285
 gnome-46-2404:
 - 63
 gnome-46-2404-sdk: []
@@ -90,7 +90,7 @@ quadrapassel:
 - 492
 snap-store: []
 snapd-desktop-integration:
-- 275
+- 278
 steam: []
 swell-foop:
 - 120
