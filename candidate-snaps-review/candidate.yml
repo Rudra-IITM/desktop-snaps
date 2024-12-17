@@ -1,7 +1,8 @@
 cheese:
 - 61
 cherrytree: []
-chromium: []
+chromium:
+- 3010
 eog:
 - 734
 epiphany:
@@ -26,7 +27,7 @@ gnome-3-34-1804-sdk: []
 gnome-3-38-2004: []
 gnome-3-38-2004-sdk: []
 gnome-42-2204:
-- 197
+- 202
 gnome-42-2204-sdk: []
 gnome-46-2404:
 - 63
@@ -89,14 +90,13 @@ quadrapassel:
 - 492
 snap-store: []
 snapd-desktop-integration:
-- 278
+- 282
 steam: []
 swell-foop:
 - 120
 tali:
 - 366
-thunderbird:
-- 601
+thunderbird: []
 ubuntu-desktop-bootstrap:
 - 242
 ubuntu-desktop-installer: []
