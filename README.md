@@ -46,6 +46,20 @@ To include this feature as a github worflow you need to pass an optional input i
 ./updatesnap/updatesnapyaml.py --github-user GITHUB_USER --github-token GITHUB_TOKEN --version-schema VERSION_SCHEMA https://github.com/ubuntu/gnome-calculator.git
 ```
 
+This tool can also be used to list the parts defined in the YAML file directly within the README for easier tracking.
+
+Ensure your README file contains the following comment block where you want the parts to be listed:
+```
+<!-- Begin Included Components -->
+
+<!-- End Included Components -->
+```
+
+To use this functionality locally, run the following command:
+```
+./updatesnap/updatesnapyaml.py --github-user GITHUB_USER --github-token GITHUB_TOKEN --readme-path README_PATH https://github.com/ubuntu/gnome-calculator.git
+```
+
 ### How Snap Version Automation Works
 
 The snap version automation feature functions by extracting version information from the designated section labeled as `adopt-info`. Subsequently, it automatically updates the version of the primary snap. This versioning scheme consists of two components:
