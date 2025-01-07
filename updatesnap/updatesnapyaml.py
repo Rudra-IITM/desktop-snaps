@@ -87,6 +87,13 @@ class ProjectManager:
             sys.exit(1)
         readme_content = readme_data.decode('utf-8')
 
+        if (
+            "<!-- Begin Included Components -->\n" not in readme_content
+            or "<!-- End Included Components -->" not in readme_content
+        ):
+            print("The required markers are missing in the README file.", file=sys.stderr)
+            return
+
         parts_contents = "\n".join([
             f"  - {part['name']} "
             f"{part['updates'][0]['name'] if part['updates'] else part['version'][0]}"
@@ -126,7 +133,8 @@ def parse_args():
     parser.add_argument('--yaml-path', action='store', default=None,
                         help='Path to the yaml file')
     parser.add_argument('--readme-path', action='store', default=None,
-                        help='Path to the README.md file where the parts and their version will be listed.')
+                        help='Path to the README.md file where the parts'
+                        'and their version will be listed.')
     parser.add_argument('--verbose', action='store_true', default=False)
     parser.add_argument('project', default='.', help='The project URI')
 
