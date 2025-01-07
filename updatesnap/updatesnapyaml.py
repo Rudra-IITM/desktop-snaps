@@ -126,7 +126,7 @@ def parse_args():
     parser.add_argument('--yaml-path', action='store', default=None,
                         help='Path to the yaml file')
     parser.add_argument('--readme-path', action='store', default=None,
-                        help='Path of the README file parts will be listed.')
+                        help='Path to the README.md file where the parts and their version will be listed.')
     parser.add_argument('--verbose', action='store_true', default=False)
     parser.add_argument('project', default='.', help='The project URI')
 
