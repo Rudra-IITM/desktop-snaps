@@ -30,8 +30,9 @@ gnome-42-2204:
 - 202
 gnome-42-2204-sdk: []
 gnome-46-2404:
-- 69
-gnome-46-2404-sdk: []
+- 72
+gnome-46-2404-sdk:
+- 66
 gnome-boxes: []
 gnome-calculator:
 - 965
