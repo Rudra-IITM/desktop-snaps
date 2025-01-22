@@ -8,8 +8,7 @@ epiphany:
 - 203
 evince:
 - 1056
-firefox:
-- 5616
+firefox: []
 five-or-more:
 - 199
 gedit:
@@ -28,11 +27,11 @@ gnome-3-38-2004: []
 gnome-3-38-2004-sdk: []
 gnome-42-2204:
 - 202
-gnome-42-2204-sdk: []
+gnome-42-2204-sdk:
+- 291
 gnome-46-2404:
-- 72
-gnome-46-2404-sdk:
-- 66
+- 77
+gnome-46-2404-sdk: []
 gnome-boxes: []
 gnome-calculator:
 - 965
@@ -92,7 +91,7 @@ quadrapassel:
 - 492
 snap-store: []
 snapd-desktop-integration:
-- 283
+- 286
 steam: []
 swell-foop:
 - 120
