@@ -25,8 +25,7 @@ gnome-3-34-1804: []
 gnome-3-34-1804-sdk: []
 gnome-3-38-2004: []
 gnome-3-38-2004-sdk: []
-gnome-42-2204:
-- 202
+gnome-42-2204: []
 gnome-42-2204-sdk:
 - 291
 gnome-46-2404:
@@ -55,7 +54,7 @@ gnome-klotski:
 gnome-logs:
 - 129
 gnome-mahjongg:
-- 178
+- 180
 gnome-mines:
 - 316
 gnome-nibbles:
