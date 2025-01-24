@@ -28,8 +28,7 @@ gnome-3-38-2004-sdk: []
 gnome-42-2204: []
 gnome-42-2204-sdk:
 - 291
-gnome-46-2404:
-- 77
+gnome-46-2404: []
 gnome-46-2404-sdk: []
 gnome-boxes: []
 gnome-calculator:
@@ -43,8 +42,7 @@ gnome-clocks:
 - 477
 gnome-contacts:
 - 267
-gnome-dictionary:
-- 62
+gnome-dictionary: []
 gnome-font-viewer:
 - 53
 gnome-hitori:
@@ -90,14 +88,14 @@ quadrapassel:
 - 492
 snap-store: []
 snapd-desktop-integration:
-- 286
+- 287
 steam: []
 swell-foop:
 - 120
 tali:
 - 366
 thunderbird:
-- 622
+- 631
 ubuntu-desktop-bootstrap:
 - 242
 ubuntu-desktop-installer: []
