@@ -106,7 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run desktop-snaps action
         uses: ubuntu/desktop-snaps@add-action
         with:
@@ -129,7 +129,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Run desktop-snaps action  
         uses: ubuntu/desktop-snaps@stable
         with:
