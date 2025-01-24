@@ -2,13 +2,16 @@ cheese:
 - 61
 cherrytree: []
 chromium: []
+desktop-security-center: []
 eog:
 - 734
 epiphany:
 - 203
 evince:
 - 1056
+factory-reset-tools: []
 firefox: []
+firmware-updater: []
 five-or-more:
 - 199
 gedit:
@@ -26,9 +29,9 @@ gnome-3-34-1804-sdk: []
 gnome-3-38-2004: []
 gnome-3-38-2004-sdk: []
 gnome-42-2204: []
-gnome-42-2204-sdk:
-- 291
-gnome-46-2404: []
+gnome-42-2204-sdk: []
+gnome-46-2404:
+- 80
 gnome-46-2404-sdk: []
 gnome-boxes: []
 gnome-calculator:
@@ -71,6 +74,8 @@ gnome-tetravex:
 - 285
 gnome-text-editor:
 - 44
+gnome-weather:
+- 8
 gtk-common-themes:
 - 1539
 iagno:
@@ -83,19 +88,23 @@ libreoffice:
 - 336
 lightsoff:
 - 162
+loupe:
+- 27
 oibaf-latest/gaming-graphics-core22: []
+prompting-client: []
 quadrapassel:
 - 492
+simple-scan: []
 snap-store: []
 snapd-desktop-integration:
-- 287
+- 292
 steam: []
 swell-foop:
 - 120
 tali:
 - 366
-thunderbird:
-- 631
+thunderbird: []
 ubuntu-desktop-bootstrap:
 - 242
+ubuntu-desktop-init: []
 ubuntu-desktop-installer: []
