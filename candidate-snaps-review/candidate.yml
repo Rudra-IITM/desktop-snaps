@@ -35,7 +35,8 @@ gnome-42-2204-sdk:
 - 296
 gnome-46-2404:
 - 80
-gnome-46-2404-sdk: []
+gnome-46-2404-sdk:
+- 68
 gnome-boxes: []
 gnome-calculator:
 - 965
@@ -104,7 +105,7 @@ swell-foop:
 tali:
 - 366
 thunderbird:
-- 644
+- 651
 ubuntu-desktop-bootstrap:
 - 242
 ubuntu-desktop-init: []
